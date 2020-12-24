@@ -1,0 +1,6 @@
+framework module Pods_Vulcan_ContecTests {
+  umbrella header "Pods-Vulcan-ContecTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBFE8B084720048296C35FB /* Pods_Vulcan_Contec_Vulcan_ContecUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC186B20EBB870C4AD28BD6 /* Pods_Vulcan_Contec_Vulcan_ContecUITests.framework */; };
+		8AB9FC545F98DF2890370A96 /* Pods_Vulcan_ContecTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A2A109DC877E31267EF000 /* Pods_Vulcan_ContecTests.framework */; };
+		B8E02D3D18A45AB9A7467347 /* Pods_Vulcan_Contec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E66519A8579828FEA3D163 /* Pods_Vulcan_Contec.framework */; };
+		EC19CB402591C9650026C975 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB3F2591C9650026C975 /* HomeViewController.swift */; };
+		EC19CB422591C9A20026C975 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB412591C9A20026C975 /* LoginViewController.swift */; };
+		EC19CB442591E66A0026C975 /* MainnavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB432591E66A0026C975 /* MainnavigationController.swift */; };
+		EC19CB47259329320026C975 /* TokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB46259329320026C975 /* TokenServices.swift */; };
+		EC19CB492593544E0026C975 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB482593544E0026C975 /* ScanViewController.swift */; };
+		EC45841E258F7D230050702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841D258F7D230050702A /* AppDelegate.swift */; };
+		EC458420258F7D230050702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841F258F7D230050702A /* ViewController.swift */; };
+		EC458423258F7D230050702A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC458421258F7D230050702A /* Main.storyboard */; };
+		EC458425258F7D2B0050702A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC458424258F7D2B0050702A /* Assets.xcassets */; };
+		EC458428258F7D2B0050702A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC458426258F7D2B0050702A /* LaunchScreen.storyboard */; };
+		EC458433258F7D2B0050702A /* Vulcan_ContecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458432258F7D2B0050702A /* Vulcan_ContecTests.swift */; };
+		EC45843E258F7D2B0050702A /* Vulcan_ContecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45843D258F7D2B0050702A /* Vulcan_ContecUITests.swift */; };
+		EC45844D258F8E740050702A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844C258F8E740050702A /* APIManager.swift */; };
+		EC458450258F8F850050702A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844F258F8F850050702A /* Constants.swift */; };
+		EC458454258F90860050702A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458453258F90860050702A /* LoginModel.swift */; };
+		EC458456258F94E60050702A /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458455258F94E60050702A /* APIErrors.swift */; };
+		EC458457258F9C6B0050702A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844C258F8E740050702A /* APIManager.swift */; };
+		EC458458258F9C6C0050702A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844C258F8E740050702A /* APIManager.swift */; };
+		EC458459258F9C700050702A /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458455258F94E60050702A /* APIErrors.swift */; };
+		EC45845A258F9C710050702A /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458455258F94E60050702A /* APIErrors.swift */; };
+		EC45845B258F9C750050702A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458453258F90860050702A /* LoginModel.swift */; };
+		EC45845C258F9C760050702A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458453258F90860050702A /* LoginModel.swift */; };
+		EC45845D258F9C7A0050702A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844F258F8F850050702A /* Constants.swift */; };
+		EC45845E258F9C7B0050702A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45844F258F8F850050702A /* Constants.swift */; };
+		EC45845F258F9C800050702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841F258F7D230050702A /* ViewController.swift */; };
+		EC458460258F9C810050702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841F258F7D230050702A /* ViewController.swift */; };
+		EC458461258F9CD00050702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841D258F7D230050702A /* AppDelegate.swift */; };
+		EC458462258F9CD20050702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45841D258F7D230050702A /* AppDelegate.swift */; };
+		EC458465258FA1DB0050702A /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC458464258FA1DB0050702A /* Dashboard.storyboard */; };
+		EC458467258FA3100050702A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458466258FA3100050702A /* DashboardViewController.swift */; };
+		ECD564022590992000C7BCB9 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD564012590992000C7BCB9 /* UIViewController + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC45842F258F7D2B0050702A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC458412258F7D230050702A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC458419258F7D230050702A;
+			remoteInfo = "Vulcan-Contec";
+		};
+		EC45843A258F7D2B0050702A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC458412258F7D230050702A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC458419258F7D230050702A;
+			remoteInfo = "Vulcan-Contec";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24F03B938FB63BC6B48ED457 /* Pods-Vulcan-Contec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-Contec.release.xcconfig"; path = "Target Support Files/Pods-Vulcan-Contec/Pods-Vulcan-Contec.release.xcconfig"; sourceTree = "<group>"; };
+		2572E1A8D960F2EFC2B3EE71 /* Pods-Vulcan-ContecTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-ContecTests.debug.xcconfig"; path = "Target Support Files/Pods-Vulcan-ContecTests/Pods-Vulcan-ContecTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B335C1A97A4352D6B7DBFCC /* Pods-Vulcan-Contec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-Contec.debug.xcconfig"; path = "Target Support Files/Pods-Vulcan-Contec/Pods-Vulcan-Contec.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC186B20EBB870C4AD28BD6 /* Pods_Vulcan_Contec_Vulcan_ContecUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vulcan_Contec_Vulcan_ContecUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A73DAF947791896925ADB /* Pods-Vulcan-Contec-Vulcan-ContecUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-Contec-Vulcan-ContecUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73E0652537C42232D04EA42 /* Pods-Vulcan-ContecTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-ContecTests.release.xcconfig"; path = "Target Support Files/Pods-Vulcan-ContecTests/Pods-Vulcan-ContecTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3A2A109DC877E31267EF000 /* Pods_Vulcan_ContecTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vulcan_ContecTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC19CB3F2591C9650026C975 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC19CB412591C9A20026C975 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC19CB432591E66A0026C975 /* MainnavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainnavigationController.swift; sourceTree = "<group>"; };
+		EC19CB46259329320026C975 /* TokenServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenServices.swift; sourceTree = "<group>"; };
+		EC19CB482593544E0026C975 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		EC45841A258F7D230050702A /* Vulcan-Contec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vulcan-Contec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC45841D258F7D230050702A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC45841F258F7D230050702A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC458422258F7D230050702A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC458424258F7D2B0050702A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC458427258F7D2B0050702A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC458429258F7D2B0050702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC45842E258F7D2B0050702A /* Vulcan-ContecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vulcan-ContecTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC458432258F7D2B0050702A /* Vulcan_ContecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vulcan_ContecTests.swift; sourceTree = "<group>"; };
+		EC458434258F7D2B0050702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC458439258F7D2B0050702A /* Vulcan-ContecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vulcan-ContecUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC45843D258F7D2B0050702A /* Vulcan_ContecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vulcan_ContecUITests.swift; sourceTree = "<group>"; };
+		EC45843F258F7D2B0050702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC45844C258F8E740050702A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EC45844F258F8F850050702A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC458453258F90860050702A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		EC458455258F94E60050702A /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
+		EC458464258FA1DB0050702A /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		EC458466258FA3100050702A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		ECD564012590992000C7BCB9 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		F3E66519A8579828FEA3D163 /* Pods_Vulcan_Contec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vulcan_Contec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA782BCC2D43FA35B6F4ECBF /* Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig"; path = "Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC458417258F7D230050702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E02D3D18A45AB9A7467347 /* Pods_Vulcan_Contec.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC45842B258F7D2B0050702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB9FC545F98DF2890370A96 /* Pods_Vulcan_ContecTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC458436258F7D2B0050702A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBFE8B084720048296C35FB /* Pods_Vulcan_Contec_Vulcan_ContecUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF2B7C2C83A59553BDEB2DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B335C1A97A4352D6B7DBFCC /* Pods-Vulcan-Contec.debug.xcconfig */,
+				24F03B938FB63BC6B48ED457 /* Pods-Vulcan-Contec.release.xcconfig */,
+				B12A73DAF947791896925ADB /* Pods-Vulcan-Contec-Vulcan-ContecUITests.debug.xcconfig */,
+				FA782BCC2D43FA35B6F4ECBF /* Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig */,
+				2572E1A8D960F2EFC2B3EE71 /* Pods-Vulcan-ContecTests.debug.xcconfig */,
+				C73E0652537C42232D04EA42 /* Pods-Vulcan-ContecTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D56C352FE6843B79DC897EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E66519A8579828FEA3D163 /* Pods_Vulcan_Contec.framework */,
+				7CC186B20EBB870C4AD28BD6 /* Pods_Vulcan_Contec_Vulcan_ContecUITests.framework */,
+				D3A2A109DC877E31267EF000 /* Pods_Vulcan_ContecTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC19CB452593291A0026C975 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC19CB46259329320026C975 /* TokenServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC458411258F7D230050702A = {
+			isa = PBXGroup;
+			children = (
+				EC45841C258F7D230050702A /* Vulcan-Contec */,
+				EC458431258F7D2B0050702A /* Vulcan-ContecTests */,
+				EC45843C258F7D2B0050702A /* Vulcan-ContecUITests */,
+				EC45841B258F7D230050702A /* Products */,
+				8AF2B7C2C83A59553BDEB2DD /* Pods */,
+				D56C352FE6843B79DC897EEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC45841B258F7D230050702A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC45841A258F7D230050702A /* Vulcan-Contec.app */,
+				EC45842E258F7D2B0050702A /* Vulcan-ContecTests.xctest */,
+				EC458439258F7D2B0050702A /* Vulcan-ContecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC45841C258F7D230050702A /* Vulcan-Contec */ = {
+			isa = PBXGroup;
+			children = (
+				EC19CB452593291A0026C975 /* Services */,
+				ECD56400259098B100C7BCB9 /* Extension */,
+				EC458463258FA1000050702A /* Dashboard */,
+				EC458452258F90600050702A /* Models */,
+				EC45844E258F8F6A0050702A /* Constants */,
+				EC45844B258F8E3D0050702A /* APIManager */,
+				EC45841D258F7D230050702A /* AppDelegate.swift */,
+				EC45841F258F7D230050702A /* ViewController.swift */,
+				EC19CB432591E66A0026C975 /* MainnavigationController.swift */,
+				EC458421258F7D230050702A /* Main.storyboard */,
+				EC19CB482593544E0026C975 /* ScanViewController.swift */,
+				EC19CB3F2591C9650026C975 /* HomeViewController.swift */,
+				EC19CB412591C9A20026C975 /* LoginViewController.swift */,
+				EC458424258F7D2B0050702A /* Assets.xcassets */,
+				EC458426258F7D2B0050702A /* LaunchScreen.storyboard */,
+				EC458429258F7D2B0050702A /* Info.plist */,
+			);
+			path = "Vulcan-Contec";
+			sourceTree = "<group>";
+		};
+		EC458431258F7D2B0050702A /* Vulcan-ContecTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC458432258F7D2B0050702A /* Vulcan_ContecTests.swift */,
+				EC458434258F7D2B0050702A /* Info.plist */,
+			);
+			path = "Vulcan-ContecTests";
+			sourceTree = "<group>";
+		};
+		EC45843C258F7D2B0050702A /* Vulcan-ContecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC45843D258F7D2B0050702A /* Vulcan_ContecUITests.swift */,
+				EC45843F258F7D2B0050702A /* Info.plist */,
+			);
+			path = "Vulcan-ContecUITests";
+			sourceTree = "<group>";
+		};
+		EC45844B258F8E3D0050702A /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC45844C258F8E740050702A /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		EC45844E258F8F6A0050702A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EC45844F258F8F850050702A /* Constants.swift */,
+				EC458455258F94E60050702A /* APIErrors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EC458452258F90600050702A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC458453258F90860050702A /* LoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC458463258FA1000050702A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC458464258FA1DB0050702A /* Dashboard.storyboard */,
+				EC458466258FA3100050702A /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		ECD56400259098B100C7BCB9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECD564012590992000C7BCB9 /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC458419258F7D230050702A /* Vulcan-Contec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC458442258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-Contec" */;
+			buildPhases = (
+				AE105EE187E1DD9F7F985816 /* [CP] Check Pods Manifest.lock */,
+				EC458416258F7D230050702A /* Sources */,
+				EC458417258F7D230050702A /* Frameworks */,
+				EC458418258F7D230050702A /* Resources */,
+				AB4E267E524DD72B161CA41D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vulcan-Contec";
+			productName = "Vulcan-Contec";
+			productReference = EC45841A258F7D230050702A /* Vulcan-Contec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC45842D258F7D2B0050702A /* Vulcan-ContecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC458445258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-ContecTests" */;
+			buildPhases = (
+				6B79A357CC74573290671784 /* [CP] Check Pods Manifest.lock */,
+				EC45842A258F7D2B0050702A /* Sources */,
+				EC45842B258F7D2B0050702A /* Frameworks */,
+				EC45842C258F7D2B0050702A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC458430258F7D2B0050702A /* PBXTargetDependency */,
+			);
+			name = "Vulcan-ContecTests";
+			productName = "Vulcan-ContecTests";
+			productReference = EC45842E258F7D2B0050702A /* Vulcan-ContecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC458438258F7D2B0050702A /* Vulcan-ContecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC458448258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-ContecUITests" */;
+			buildPhases = (
+				58A3F4BFEF70D94F95D6C0E5 /* [CP] Check Pods Manifest.lock */,
+				EC458435258F7D2B0050702A /* Sources */,
+				EC458436258F7D2B0050702A /* Frameworks */,
+				EC458437258F7D2B0050702A /* Resources */,
+				CBD772CA8BD6A2E13400EB93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC45843B258F7D2B0050702A /* PBXTargetDependency */,
+			);
+			name = "Vulcan-ContecUITests";
+			productName = "Vulcan-ContecUITests";
+			productReference = EC458439258F7D2B0050702A /* Vulcan-ContecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC458412258F7D230050702A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Prabu;
+				TargetAttributes = {
+					EC458419258F7D230050702A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EC45842D258F7D2B0050702A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EC458419258F7D230050702A;
+					};
+					EC458438258F7D2B0050702A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EC458419258F7D230050702A;
+					};
+				};
+			};
+			buildConfigurationList = EC458415258F7D230050702A /* Build configuration list for PBXProject "Vulcan-Contec" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC458411258F7D230050702A;
+			productRefGroup = EC45841B258F7D230050702A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC458419258F7D230050702A /* Vulcan-Contec */,
+				EC45842D258F7D2B0050702A /* Vulcan-ContecTests */,
+				EC458438258F7D2B0050702A /* Vulcan-ContecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC458418258F7D230050702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC458428258F7D2B0050702A /* LaunchScreen.storyboard in Resources */,
+				EC458425258F7D2B0050702A /* Assets.xcassets in Resources */,
+				EC458423258F7D230050702A /* Main.storyboard in Resources */,
+				EC458465258FA1DB0050702A /* Dashboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC45842C258F7D2B0050702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC458437258F7D2B0050702A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A3F4BFEF70D94F95D6C0E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vulcan-Contec-Vulcan-ContecUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B79A357CC74573290671784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vulcan-ContecTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4E267E524DD72B161CA41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec/Pods-Vulcan-Contec-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec/Pods-Vulcan-Contec-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec/Pods-Vulcan-Contec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE105EE187E1DD9F7F985816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vulcan-Contec-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD772CA8BD6A2E13400EB93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC458416258F7D230050702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC458454258F90860050702A /* LoginModel.swift in Sources */,
+				EC458467258FA3100050702A /* DashboardViewController.swift in Sources */,
+				ECD564022590992000C7BCB9 /* UIViewController + Extension.swift in Sources */,
+				EC45844D258F8E740050702A /* APIManager.swift in Sources */,
+				EC19CB492593544E0026C975 /* ScanViewController.swift in Sources */,
+				EC458420258F7D230050702A /* ViewController.swift in Sources */,
+				EC19CB402591C9650026C975 /* HomeViewController.swift in Sources */,
+				EC45841E258F7D230050702A /* AppDelegate.swift in Sources */,
+				EC458450258F8F850050702A /* Constants.swift in Sources */,
+				EC19CB422591C9A20026C975 /* LoginViewController.swift in Sources */,
+				EC458456258F94E60050702A /* APIErrors.swift in Sources */,
+				EC19CB442591E66A0026C975 /* MainnavigationController.swift in Sources */,
+				EC19CB47259329320026C975 /* TokenServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC45842A258F7D2B0050702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC45845F258F9C800050702A /* ViewController.swift in Sources */,
+				EC45845D258F9C7A0050702A /* Constants.swift in Sources */,
+				EC458457258F9C6B0050702A /* APIManager.swift in Sources */,
+				EC45845B258F9C750050702A /* LoginModel.swift in Sources */,
+				EC458461258F9CD00050702A /* AppDelegate.swift in Sources */,
+				EC458433258F7D2B0050702A /* Vulcan_ContecTests.swift in Sources */,
+				EC458459258F9C700050702A /* APIErrors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC458435258F7D2B0050702A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC458460258F9C810050702A /* ViewController.swift in Sources */,
+				EC45845E258F9C7B0050702A /* Constants.swift in Sources */,
+				EC458458258F9C6C0050702A /* APIManager.swift in Sources */,
+				EC45845C258F9C760050702A /* LoginModel.swift in Sources */,
+				EC458462258F9CD20050702A /* AppDelegate.swift in Sources */,
+				EC45843E258F7D2B0050702A /* Vulcan_ContecUITests.swift in Sources */,
+				EC45845A258F9C710050702A /* APIErrors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC458430258F7D2B0050702A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC458419258F7D230050702A /* Vulcan-Contec */;
+			targetProxy = EC45842F258F7D2B0050702A /* PBXContainerItemProxy */;
+		};
+		EC45843B258F7D2B0050702A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC458419258F7D230050702A /* Vulcan-Contec */;
+			targetProxy = EC45843A258F7D2B0050702A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC458421258F7D230050702A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC458422258F7D230050702A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC458426258F7D2B0050702A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC458427258F7D2B0050702A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC458440258F7D2B0050702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC458441258F7D2B0050702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC458443258F7D2B0050702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B335C1A97A4352D6B7DBFCC /* Pods-Vulcan-Contec.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGF8RF5235;
+				INFOPLIST_FILE = "Vulcan-Contec/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-Contec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC458444258F7D2B0050702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F03B938FB63BC6B48ED457 /* Pods-Vulcan-Contec.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGF8RF5235;
+				INFOPLIST_FILE = "Vulcan-Contec/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-Contec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC458446258F7D2B0050702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2572E1A8D960F2EFC2B3EE71 /* Pods-Vulcan-ContecTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T23YJ39L2;
+				INFOPLIST_FILE = "Vulcan-ContecTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-ContecTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vulcan-Contec.app/Vulcan-Contec";
+			};
+			name = Debug;
+		};
+		EC458447258F7D2B0050702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73E0652537C42232D04EA42 /* Pods-Vulcan-ContecTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T23YJ39L2;
+				INFOPLIST_FILE = "Vulcan-ContecTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-ContecTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vulcan-Contec.app/Vulcan-Contec";
+			};
+			name = Release;
+		};
+		EC458449258F7D2B0050702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12A73DAF947791896925ADB /* Pods-Vulcan-Contec-Vulcan-ContecUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T23YJ39L2;
+				INFOPLIST_FILE = "Vulcan-ContecUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-ContecUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vulcan-Contec";
+			};
+			name = Debug;
+		};
+		EC45844A258F7D2B0050702A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA782BCC2D43FA35B6F4ECBF /* Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T23YJ39L2;
+				INFOPLIST_FILE = "Vulcan-ContecUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Contec.Vulcan-ContecUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vulcan-Contec";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC458415258F7D230050702A /* Build configuration list for PBXProject "Vulcan-Contec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC458440258F7D2B0050702A /* Debug */,
+				EC458441258F7D2B0050702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC458442258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-Contec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC458443258F7D2B0050702A /* Debug */,
+				EC458444258F7D2B0050702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC458445258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-ContecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC458446258F7D2B0050702A /* Debug */,
+				EC458447258F7D2B0050702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC458448258F7D2B0050702A /* Build configuration list for PBXNativeTarget "Vulcan-ContecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC458449258F7D2B0050702A /* Debug */,
+				EC45844A258F7D2B0050702A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC458412258F7D230050702A /* Project object */;
+}

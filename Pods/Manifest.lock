@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.0.0.beta.1)
+  - SideMenu (6.5.0)
+  - SPPermissions/Camera (5.4.1):
+    - SPPermissions/Core
+  - SPPermissions/Core (5.4.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.0.0-beta.1)
+  - SideMenu
+  - SPPermissions/Camera
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SideMenu
+    - SPPermissions
+
+SPEC CHECKSUMS:
+  Alamofire: 2ef6d6c984c5d21c366e9b41a9ae7dfee2b67a44
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SPPermissions: a093e8045c7aeb23a08acda6d288e3543f27f8fa
+
+PODFILE CHECKSUM: 50fa53f9a9875c398c9b68c00ef072776bb63c3f
+
+COCOAPODS: 1.10.0

@@ -42,7 +42,7 @@ class APIManager {
     func callSnDetailAPI(completionHandler: @escaping Handler  ){
         let headers: HTTPHeaders = [
             .contentType("application/json"),
-            .authorization("Bearer \(TokenService.tokenInstance.getToken())")
+            .authorization("Bearer \(TokenServices.tokenInstance.getToken())")
         ]
         
         AF.request(snUrl, method: .get

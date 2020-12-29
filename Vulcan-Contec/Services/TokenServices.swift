@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class TokenService{
-    static let tokenInstance = TokenService()
+class TokenServices{
+    static let tokenInstance = TokenServices()
     let userDefault = UserDefaults.standard
     
     func saveToken(token: String) {

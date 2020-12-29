@@ -9,5 +9,7 @@
 import Foundation
 
 struct SnModel: Codable {
-    let sn: String
+    let name: String
+    let value: String
 }
+

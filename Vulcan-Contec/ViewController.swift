@@ -42,7 +42,7 @@ class ViewController: UIViewController {
                             return
                     }
                     
-                    TokenService.tokenInstance.saveToken(token: jwtToken)
+                    TokenServices.tokenInstance.saveToken(token: jwtToken)
                     
                     if let mainVC = mainNavigationVC.topViewController as? HomeViewController {
                         mainVC._username = userModel.userName

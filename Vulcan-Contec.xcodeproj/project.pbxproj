@@ -42,8 +42,24 @@
 		EC458467258FA3100050702A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC458466258FA3100050702A /* DashboardViewController.swift */; };
 		EC494BF825948FBC0022BD02 /* SnDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494BF725948FBB0022BD02 /* SnDetailModel.swift */; };
 		EC494BFA259492990022BD02 /* SnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494BF9259492990022BD02 /* SnModel.swift */; };
-		EC494C00259497C90022BD02 /* SnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494BFF259497C90022BD02 /* SnViewController.swift */; };
 		EC494C022594A6DE0022BD02 /* SnNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494C012594A6DE0022BD02 /* SnNavigationViewController.swift */; };
+		EC53EE502599B14300331260 /* TokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB46259329320026C975 /* TokenServices.swift */; };
+		EC53EE512599B14300331260 /* TokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB46259329320026C975 /* TokenServices.swift */; };
+		EC53EE522599B19200331260 /* MainnavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB432591E66A0026C975 /* MainnavigationController.swift */; };
+		EC53EE532599B19300331260 /* MainnavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB432591E66A0026C975 /* MainnavigationController.swift */; };
+		EC53EE542599B1CA00331260 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB3F2591C9650026C975 /* HomeViewController.swift */; };
+		EC53EE552599B1CB00331260 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19CB3F2591C9650026C975 /* HomeViewController.swift */; };
+		EC53EE582599B1DC00331260 /* SnNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494C012594A6DE0022BD02 /* SnNavigationViewController.swift */; };
+		EC53EE592599B1DD00331260 /* SnNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC494C012594A6DE0022BD02 /* SnNavigationViewController.swift */; };
+		EC53EE5C2599B5E200331260 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE5A2599B5E200331260 /* CellTableViewCell.swift */; };
+		EC53EE5D2599B5E200331260 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE5A2599B5E200331260 /* CellTableViewCell.swift */; };
+		EC53EE5E2599B5E200331260 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE5A2599B5E200331260 /* CellTableViewCell.swift */; };
+		EC53EE5F2599B5E200331260 /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC53EE5B2599B5E200331260 /* CellTableViewCell.xib */; };
+		EC53EE602599B5E200331260 /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC53EE5B2599B5E200331260 /* CellTableViewCell.xib */; };
+		EC53EE612599B5E200331260 /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC53EE5B2599B5E200331260 /* CellTableViewCell.xib */; };
+		EC53EE652599D4E500331260 /* SnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE642599D4E500331260 /* SnTableViewController.swift */; };
+		EC53EE662599D4E500331260 /* SnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE642599D4E500331260 /* SnTableViewController.swift */; };
+		EC53EE672599D4E500331260 /* SnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53EE642599D4E500331260 /* SnTableViewController.swift */; };
 		ECD564022590992000C7BCB9 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD564012590992000C7BCB9 /* UIViewController + Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +114,10 @@
 		EC458466258FA3100050702A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		EC494BF725948FBB0022BD02 /* SnDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnDetailModel.swift; sourceTree = "<group>"; };
 		EC494BF9259492990022BD02 /* SnModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnModel.swift; sourceTree = "<group>"; };
-		EC494BFF259497C90022BD02 /* SnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnViewController.swift; sourceTree = "<group>"; };
 		EC494C012594A6DE0022BD02 /* SnNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnNavigationViewController.swift; sourceTree = "<group>"; };
+		EC53EE5A2599B5E200331260 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		EC53EE5B2599B5E200331260 /* CellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewCell.xib; sourceTree = "<group>"; };
+		EC53EE642599D4E500331260 /* SnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnTableViewController.swift; sourceTree = "<group>"; };
 		ECD564012590992000C7BCB9 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		F3E66519A8579828FEA3D163 /* Pods_Vulcan_Contec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vulcan_Contec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA782BCC2D43FA35B6F4ECBF /* Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig"; path = "Target Support Files/Pods-Vulcan-Contec-Vulcan-ContecUITests/Pods-Vulcan-Contec-Vulcan-ContecUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,8 +218,10 @@
 				EC19CB432591E66A0026C975 /* MainnavigationController.swift */,
 				EC494C012594A6DE0022BD02 /* SnNavigationViewController.swift */,
 				EC458421258F7D230050702A /* Main.storyboard */,
+				EC53EE642599D4E500331260 /* SnTableViewController.swift */,
+				EC53EE5A2599B5E200331260 /* CellTableViewCell.swift */,
+				EC53EE5B2599B5E200331260 /* CellTableViewCell.xib */,
 				EC19CB482593544E0026C975 /* ScanViewController.swift */,
-				EC494BFF259497C90022BD02 /* SnViewController.swift */,
 				EC19CB3F2591C9650026C975 /* HomeViewController.swift */,
 				EC19CB412591C9A20026C975 /* LoginViewController.swift */,
 				EC458424258F7D2B0050702A /* Assets.xcassets */,
@@ -386,6 +406,7 @@
 				EC458425258F7D2B0050702A /* Assets.xcassets in Resources */,
 				EC458423258F7D230050702A /* Main.storyboard in Resources */,
 				EC458465258FA1DB0050702A /* Dashboard.storyboard in Resources */,
+				EC53EE5F2599B5E200331260 /* CellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC53EE602599B5E200331260 /* CellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC53EE612599B5E200331260 /* CellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +537,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC458454258F90860050702A /* LoginModel.swift in Sources */,
-				EC494C00259497C90022BD02 /* SnViewController.swift in Sources */,
 				EC458467258FA3100050702A /* DashboardViewController.swift in Sources */,
 				ECD564022590992000C7BCB9 /* UIViewController + Extension.swift in Sources */,
 				EC494BFA259492990022BD02 /* SnModel.swift in Sources */,
@@ -526,8 +548,10 @@
 				EC45841E258F7D230050702A /* AppDelegate.swift in Sources */,
 				EC458450258F8F850050702A /* Constants.swift in Sources */,
 				EC19CB422591C9A20026C975 /* LoginViewController.swift in Sources */,
+				EC53EE652599D4E500331260 /* SnTableViewController.swift in Sources */,
 				EC458456258F94E60050702A /* APIErrors.swift in Sources */,
 				EC19CB442591E66A0026C975 /* MainnavigationController.swift in Sources */,
+				EC53EE5C2599B5E200331260 /* CellTableViewCell.swift in Sources */,
 				EC19CB47259329320026C975 /* TokenServices.swift in Sources */,
 				EC494C022594A6DE0022BD02 /* SnNavigationViewController.swift in Sources */,
 			);
@@ -539,8 +563,14 @@
 			files = (
 				EC45845F258F9C800050702A /* ViewController.swift in Sources */,
 				EC45845D258F9C7A0050702A /* Constants.swift in Sources */,
+				EC53EE662599D4E500331260 /* SnTableViewController.swift in Sources */,
+				EC53EE582599B1DC00331260 /* SnNavigationViewController.swift in Sources */,
 				EC458457258F9C6B0050702A /* APIManager.swift in Sources */,
+				EC53EE502599B14300331260 /* TokenServices.swift in Sources */,
 				EC45845B258F9C750050702A /* LoginModel.swift in Sources */,
+				EC53EE542599B1CA00331260 /* HomeViewController.swift in Sources */,
+				EC53EE522599B19200331260 /* MainnavigationController.swift in Sources */,
+				EC53EE5D2599B5E200331260 /* CellTableViewCell.swift in Sources */,
 				EC458461258F9CD00050702A /* AppDelegate.swift in Sources */,
 				EC458433258F7D2B0050702A /* Vulcan_ContecTests.swift in Sources */,
 				EC458459258F9C700050702A /* APIErrors.swift in Sources */,
@@ -553,8 +583,14 @@
 			files = (
 				EC458460258F9C810050702A /* ViewController.swift in Sources */,
 				EC45845E258F9C7B0050702A /* Constants.swift in Sources */,
+				EC53EE672599D4E500331260 /* SnTableViewController.swift in Sources */,
+				EC53EE592599B1DD00331260 /* SnNavigationViewController.swift in Sources */,
 				EC458458258F9C6C0050702A /* APIManager.swift in Sources */,
+				EC53EE512599B14300331260 /* TokenServices.swift in Sources */,
 				EC45845C258F9C760050702A /* LoginModel.swift in Sources */,
+				EC53EE552599B1CB00331260 /* HomeViewController.swift in Sources */,
+				EC53EE532599B19300331260 /* MainnavigationController.swift in Sources */,
+				EC53EE5E2599B5E200331260 /* CellTableViewCell.swift in Sources */,
 				EC458462258F9CD20050702A /* AppDelegate.swift in Sources */,
 				EC45843E258F7D2B0050702A /* Vulcan_ContecUITests.swift in Sources */,
 				EC45845A258F9C710050702A /* APIErrors.swift in Sources */,

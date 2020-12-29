@@ -21,48 +21,18 @@ class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelega
     
     let systemSoundID: SystemSoundID = 1016
     
-    @IBAction func getSnDetail(_ sender: Any) {
-        
-        APIManager.shareInstance.callSnDetailAPI() {
-            (result) in
-            switch result{
-            case .success(let json):
-                if let sn = (json as AnyObject) as? [String: AnyObject]{
-                    let snVal = (sn as AnyObject).value(forKey: "serialNumber") as! String
-                    let snArr = SnModel(sn: snVal)
-                    
-                    let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-                    guard let mainNavigationVC = mainStoryboard.instantiateViewController(withIdentifier: "SnNavigationViewController") as?
-                        SnNavigationViewController else{
-                            return
-                    }
-                    if let mainVC = mainNavigationVC.topViewController as? SnViewController {
-                        
-                    }
-                    
-                    self.present(mainNavigationVC, animated: true, completion: nil)
-                }
-            case .failure(let err):
-                print(err.localizedDescription)
-                let alert = UIAlertController(title: "", message: "Invalid Password", preferredStyle: .alert)
-                self.present(alert, animated: true) {
-                    sleep(3)
-                    alert.dismiss(animated: true) }
-            }
-        }
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //grView.layer.borderWidth = 2
         //grView.layer.borderColor = UIColor.green.cgColor
         // grView.backgroundColor = .cyan
-        cancelBtn.layer.cornerRadius = 7
-        cancelBtn.addTarget(self, action: #selector(goBackAgain), for: .touchUpInside)
-        reStart()
-        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipe))
-        swipeLeft.direction = UISwipeGestureRecognizer.Direction.right
-        self.view.addGestureRecognizer(swipeLeft)
-        view.isUserInteractionEnabled = true
+//        cancelBtn.layer.cornerRadius = 7
+//        cancelBtn.addTarget(self, action: #selector(goBackAgain), for: .touchUpInside)
+//        reStart()
+//        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipe))
+//        swipeLeft.direction = UISwipeGestureRecognizer.Direction.right
+//        self.view.addGestureRecognizer(swipeLeft)
+//        view.isUserInteractionEnabled = true
         
     }
     

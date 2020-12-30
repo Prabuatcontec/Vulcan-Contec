@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gbc-jd-a2G">
-                                <rect key="frame" x="125" y="91" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gbc-jd-a2G">
+                                <rect key="frame" x="95" y="388" width="238" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="username:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="bzz-Qh-t2c"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="54i-pd-N7u">
-                                <rect key="frame" x="125" y="149" width="97" height="30"/>
+                                <rect key="frame" x="95" y="441" width="238" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -38,19 +38,12 @@
                                     <action selector="password:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="q2u-Jt-xAh"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjQ-4G-Dxy">
-                                <rect key="frame" x="188" y="433" width="38" height="17"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1WQ-Kj-eoR"/>
-                                </connections>
-                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logoi" translatesAutoresizingMaskIntoConstraints="NO" id="rxq-a7-Cab">
+                                <rect key="frame" x="110" y="157" width="194" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="IjQ-4G-Dxy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GEl-8M-Nqr"/>
-                            <constraint firstItem="IjQ-4G-Dxy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sui-cL-O4E"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="JGd-Ri-bbD"/>
@@ -61,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1955" y="-28"/>
+            <point key="canvasLocation" x="-1955.072463768116" y="-28.125"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="cA1-rA-H9m">
@@ -168,7 +161,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmB-qZ-SIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2606" y="-103"/>
+            <point key="canvasLocation" x="2333" y="-7"/>
         </scene>
         <!--Mainnavigation Controller-->
         <scene sceneID="Hls-vr-nNH">
@@ -189,4 +182,7 @@
             <point key="canvasLocation" x="-365.21739130434787" y="-28.125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logoi" width="122.5" height="194"/>
+    </resources>
 </document>
